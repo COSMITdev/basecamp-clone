@@ -1,5 +1,9 @@
 # Demo Project
 
+See the [Live Demo].
+
+[Live Demo]: http://demo.cosmit.me
+
 * Main branch: master
 * Ruby version: "2.3.1"
 * Rails version: "~> 4.2"
@@ -27,19 +31,9 @@ After setting up, you can run the application using [Heroku Local]:
 
 [Heroku Local]: https://devcenter.heroku.com/articles/heroku-local
 
-## Running Specs
-
-We use [Capybara Webkit](https://github.com/thoughtbot/capybara-webkit) for
-full-stack JavaScript integration testing. It requires QT. Instructions for
-installing QT are [here](https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit).
-
 * **Create Test DB and run migrations**
 
 ```bin/rake db:create db:migrate RAILS_ENV=test```
-
-* **Run Specs**
-
-```bundle exec rspec .```
 
 ## Creating feature branches
 
@@ -58,7 +52,8 @@ Now, to create the feature branch just run `git checkout master && git checkout 
 
 After you finish the implementations what you did on your branch, you can up this to Github and open a Pull Request. This way other persons of the project can available your things and propose improvements. Just create the PR when you have confidence you create everything you need to, like views, controllers, specs...
 
-## Finishing/Delivering/Updating Trello
+## MIT License
 
-For now we are using Trello to organize the features and sprints of the project, so, just delivery a task when you finish this and up the PR. Anyone can update cards on Trello, so be confident to do it yourself when you feel that your feature is ready to launch.
-https://trello.com/b/r1MEFAOq/basecamp-killer
+This project is under [MIT License].
+
+[MIT License]:http://github.com/COSMITdev/demo-project/blob/master/LICENSE.md
